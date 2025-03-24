@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Complete Your Profile</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Complete Your Profile</h1>
+        <p>Tell us about yourself to get started</p>
+
+        <form>
+            <label for="title">Profession/Title</label>
+            <input type="text" id="title" placeholder="(e.g., UI/UX Designer)">
+
+            <label for="skills">Skills</label>
+            <input type="text" id="skills" placeholder="(e.g., Graphic Design) Separate multiple skills with commas">
+
+            <label for="availability">Time Availability</label>
+            <input type="text" id="availability" placeholder="(e.g., Weekdays 2 PM - 6 PM, Weekends 10 AM - 4 PM)">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

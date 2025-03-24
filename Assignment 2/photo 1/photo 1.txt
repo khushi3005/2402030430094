@@ -1,0 +1,62 @@
+import React, { useState } from 'react';
+import { View, TextInput, Button, Text, StyleSheet } from 'react-native';
+
+const LoginScreen = () => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleLogin = () => {
+    // Handle login logic
+  };
+
+  return (
+    <View style={styles.container}>
+      <Text style={styles.title}>Login</Text>
+      <TextInput
+        style={styles.input}
+        placeholder="Enter your email"
+        value={email}
+        onChangeText={setEmail}
+      />
+      <TextInput
+        style={styles.input}
+        placeholder="Enter your password"
+        secureTextEntry
+        value={password}
+        onChangeText={setPassword}
+      />
+      <Text style={styles.forgotPassword}>Forgot Password?</Text>
+      <Button title="Login" onPress={handleLogin} />
+      <Text>or login with</Text>
+      <Button title="Login with Google" onPress={() => {}} />
+      <Text>Don't have an account? Register</Text>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#4CAF50',
+    padding: 20,
+  },
+  title: {
+    fontSize: 24,
+    color: 'white',
+    marginBottom: 20,
+  },
+  input: {
+    height: 40,
+    borderColor: 'white',
+    borderWidth: 1,
+    marginBottom: 20,
+    paddingLeft: 10,
+    color: 'white',
+  },
+  forgotPassword: {
+    color: 'blue',
+    marginBottom: 20,
+  },
+});
+
+export default LoginScreen;

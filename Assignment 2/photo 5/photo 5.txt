@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #32CD32; /* Green background */
+            color: #1E90FF; /* Blue text color */
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            border-bottom: 2px solid #1E90FF;
+            padding-bottom: 10px;
+        }
+
+        .section {
+            background-color: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section ul li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Profile settings</h2>
+        <div class="section">
+            <ul>
+                <li>Username</li>
+                <li>Password and security</li>
+                <li>Activity log</li>
+                <li>Location</li>
+            </ul>
+        </div>
+        
+        <h2>Privacy</h2>
+        <div class="section">
+            <ul>
+                <li>Cookies</li>
+                <li>Terms of service</li>
+                <li>Privacy policy</li>
+                <li>About</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

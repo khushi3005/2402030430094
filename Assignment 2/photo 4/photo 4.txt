@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX Designer Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4CAF50; /* Background color */
+            color: #fff; /* Text color */
+            margin: 0;
+            padding: 10px;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #ffffff;
+            color: #4CAF50;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        .skills, .others {
+            margin-top: 10px;
+        }
+
+        .rating {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>UI/UX Designer</h1>
+        <p>example@email.com</p>
+        <p><a style="color: #ffffff; text-decoration: underline;" href="https://linkedin.com/in/username">linkedin.com/in/username</a></p>
+    </div>
+    
+    <div class="buttons">
+        <button>Request Swap</button>
+        <button>Send Message</button>
+    </div>
+
+    <div class="experience">
+        <h2>Experience</h2>
+        <p>Freelance UI/UX Designer</p>
+        <p>Worked with diverse clients to create user-friendly interfaces for mobile and web applications. Designed wireframes, prototypes, and high-fidelity designs using tools like Figma and Adobe XD. Collaborated closely with developers to ensure smooth implementation.</p>
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Wireframing & Prototyping</li>
+            <li>Interaction Design</li>
+            <li>UX Research & Testing</li>
+            <li>Visual Design & Branding</li>
+            <li>Tools: Figma, Adobe XD, Sketch, Photoshop</li>
+        </ul>
+    </div>
+
+    <div class="availability">
+        <h2>Time Availability</h2>
+        <p>Monday to Friday: 10:00 AM - 6:00 PM</p>
+        <p>Weekends: Flexible</p>
+    </div>
+
+    <div class="others">
+        <h2>What Others Say</h2>
+        <p>Swapping skills with John was amazing! His UI/UX insights helped me grow my online presence.</p>
+        <p>-- Luke</p>
+        <p class="rating">Average User Feedback: ★★★★☆</p>
+        <a style="color: #ffffff; text-decoration: underline;" href="#">See All Reviews</a>
+    </div>
+</body>
+</html>
